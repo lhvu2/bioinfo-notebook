@@ -1,6 +1,6 @@
 1. cd /home/lhvu/bio/bioinfo-notebook/tests/ex2
 2. export BOWTIE2_INDEXES=`pwd`/index
-3. bowtie2 --no-unal -p 8 -x lambda_virus  -1 reads/reads_1.fq -2 reads/reads_2.fq -S output.sam
+3. bowtie2 --no-unal -p 8 -x lambda_virus  -1 reads/reads_1.fq -2 reads/reads_2.fq -S output_bowtie2.sam
 4. Output:
 
 ```
