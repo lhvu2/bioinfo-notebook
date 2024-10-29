@@ -1,4 +1,5 @@
 # INSTALL
+- conda activate bio-nb
 - conda install bowtie2
 
 # Take examples:
