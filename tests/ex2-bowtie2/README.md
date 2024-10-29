@@ -1,3 +1,15 @@
+# INSTALL
+- conda install bowtie2
+
+# Take examples:
+- git clone git@github.com:lhvu2/bowtie2.git
+
+# first test
+- cd /home/lhvu/bio/bowtie2
+- bowtie2 -x example/index/lambda_virus -U example/reads/longreads.fq
+
+
+# second test
 1. cd /home/lhvu/bio/bioinfo-notebook/tests/ex2-bowtie2
 2. export BOWTIE2_INDEXES=`pwd`/index
 3. bowtie2 --no-unal -p 8 -x lambda_virus  -1 reads/reads_1.fq -2 reads/reads_2.fq -S output_bowtie2.sam
